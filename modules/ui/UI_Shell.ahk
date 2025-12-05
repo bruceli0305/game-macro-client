@@ -37,7 +37,7 @@ UI_ShowMain() {
     nodePoints  := UI.Nav.Add("取色点位",   rootData)
     nodeDefault := UI.Nav.Add("默认技能",   rootData)
 
-    nodeToolsIO    := UI.Nav.Add("导入 / 导出", rootTools)
+    nodeToolsIO    := UI.Nav.Add("导入", rootTools)
     nodeToolsQuick := UI.Nav.Add("快捷测试",    rootTools)
 
     nodeSettingsLang  := UI.Nav.Add("界面 / 语言", rootSet)
@@ -63,7 +63,7 @@ UI_ShowMain() {
     UI_RegisterPage("skills",         "技能配置",   Page_Skills_Build,         Page_Skills_Layout, Page_Skills_OnEnter)
     UI_RegisterPage("points",         "点位",      Page_Points_Build,         Page_Points_Layout, Page_Points_OnEnter)
     UI_RegisterPage("default_skill",  "默认技能",   Page_DefaultSkill_Build,   Page_DefaultSkill_Layout,  Page_DefaultSkill_OnEnter)
-    UI_RegisterPage("tools_io",       "导入导出",   Page_ToolsIO_Build,        Page_ToolsIO_Layout, Page_ToolsIO_OnEnter)
+    UI_RegisterPage("tools_io",       "导入",   Page_ToolsIO_Build,        Page_ToolsIO_Layout, Page_ToolsIO_OnEnter)
     UI_RegisterPage("tools_quick",    "快捷测试",   Page_ToolsQuick_Build,     Page_ToolsQuick_Layout, Page_ToolsQuick_Layout)
 
     UI_RegisterPage("settings_lang",  "界面语言",   Page_Settings_Lang_Build,  Page_Settings_Lang_Layout, Page_Settings_Lang_OnEnter)
