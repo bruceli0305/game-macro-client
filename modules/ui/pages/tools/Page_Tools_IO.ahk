@@ -1,0 +1,154 @@
+; ==================== modules\ui\pages\tools\Page_Tools_IO.ahk ====================
+#Requires AutoHotkey v2
+
+; 依赖：Exporter_ExportProfile / Exporter_UnpackToTemp
+; 以及后续将实现的 ImportWizard_Begin(tempDir, manifest)
+
+Page_ToolsIO_Build(page) {
+    global UI
+    rc := UI_GetPageRect()
+    page.Controls := []
+    margin := 8
+    halfH := rc.H // 2 - margin * 2
+    xLabel := rc.X + 16
+    yCur   := rc.Y + 32
+    labelW := 100
+    editW  := 260
+    ; 导入区域 GroupBox
+    gy2 := rc.Y + halfH + margin * 2
+    UI.GB_Import := UI.Main.Add("GroupBox"
+        , Format("x{} y{} w{} h{}", rc.X, gy2, rc.W, halfH)
+        , "导入配置")
+    page.Controls.Push(UI.GB_Import)
+
+    x2 := rc.X + 16
+    y2 := gy2 + 32
+
+    UI.LblZipPath := UI.Main.Add("Text"
+        , Format("x{} y{} w{} Right", x2, y2 + 3, labelW)
+        , "Zip 文件：")
+    page.Controls.Push(UI.LblZipPath)
+
+    UI.EdZipPath := UI.Main.Add("Edit"
+        , Format("x{} y{} w{}",
+            x2 + labelW + 8, y2, editW + 160)
+        , "")
+    page.Controls.Push(UI.EdZipPath)
+
+    UI.BtnBrowseZip := UI.Main.Add("Button"
+        , "x+8 w80 h24"
+        , "浏览...")
+    page.Controls.Push(UI.BtnBrowseZip)
+
+    y2 += 40
+    UI.BtnDoImport := UI.Main.Add("Button"
+        , Format("x{} y{} w120 h30", x2 + labelW + 8, y2)
+        , "开始导入")
+    page.Controls.Push(UI.BtnDoImport)
+
+    ; 事件
+    try {
+        UI.BtnBrowseZip.OnEvent("Click", ToolsIO_OnBrowseZip)
+        UI.BtnDoImport.OnEvent("Click", ToolsIO_OnImport)
+    } catch {
+    }
+
+    ; 初始化导出路径与当前配置显示
+    ToolsIO_UpdateCurrentProfile()
+}
+
+Page_ToolsIO_Layout(rc) {
+    ; 简单使用 Build 中的布局，不做复杂自适应
+    ToolsIO_UpdateCurrentProfile()
+}
+
+Page_ToolsIO_OnEnter(*) {
+    ToolsIO_UpdateCurrentProfile()
+}
+
+ToolsIO_UpdateCurrentProfile() {
+    global App, UI
+    name := ""
+    try {
+        name := App["CurrentProfile"]
+    } catch {
+        name := ""
+    }
+    txt := "当前配置：" (name != "" ? name : "（未选择）")
+    try {
+        UI.TxtCurProfile.Text := txt
+    } catch {
+    }
+}
+
+ToolsIO_OnBrowseZip(*) {
+    global UI
+    sel := FileSelect("1", UI.EdZipPath.Value, "选择导入 Zip 文件", "Zip 文件 (*.zip)")
+    if (sel = "") {
+        return
+    }
+    try {
+        UI.EdZipPath.Value := sel
+    } catch {
+    }
+}
+
+ToolsIO_OnImport(*) {
+    global UI
+
+    zipPath := ""
+    try {
+        zipPath := UI.EdZipPath.Value
+    } catch {
+        zipPath := ""
+    }
+    if (zipPath = "") {
+        MsgBox "请先选择要导入的 Zip 文件。"
+        return
+    }
+    if !FileExist(zipPath) {
+        MsgBox "指定的 Zip 文件不存在。"
+        return
+    }
+
+    ; 先尝试无密码解包
+    res := Exporter_UnpackToTemp(zipPath, "")
+    if (res.Has("Ok")) {
+        if (res["Ok"]) {
+            ; 无密码或无需密码，直接进入导入向导
+            ToolsIO_StartImportWizard(res["TempDir"], res["Manifest"])
+            return
+        }
+    }
+
+    ; 需要密码的情况：弹出一次输入框
+    ib := InputBox("请输入 Zip 密码（留空取消）：", "导入配置 - 需要密码")
+    if (ib.Result = "Cancel") {
+        return
+    }
+    pwd := Trim(ib.Value)
+    if (pwd = "") {
+        return
+    }
+
+    res2 := Exporter_UnpackToTemp(zipPath, pwd)
+    if !(res2.Has("Ok") && res2["Ok"]) {
+        MsgBox "解压失败，密码可能不正确或压缩包已损坏。"
+        return
+    }
+
+    ToolsIO_StartImportWizard(res2["TempDir"], res2["Manifest"])
+}
+
+; 调用导入向导的入口（后续我们会实现 GUI_ImportWizard.ahk 中的 ImportWizard_Begin）
+ToolsIO_StartImportWizard(tempDir, manifest) {
+    try {
+        ImportWizard_Begin(tempDir, manifest)
+    } catch as e {
+        try {
+            Logger_Exception("Importer", e, Map("where", "ToolsIO_StartImportWizard", "tempDir", tempDir))
+        } catch {
+        }
+        MsgBox "导入向导启动失败，请查看日志。"
+    }
+}

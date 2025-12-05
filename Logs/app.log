@@ -1,0 +1,210 @@
+2025-12-04 14:29:36.214 [tick=99258390] [pid=8584] [INFO] [Core] | App exit
+2025-12-04 14:29:41.549 [tick=99263734] [pid=7196] [INFO] [Core] file=D:\project\AI\AHK\game-macro\Logs\app.log keep=5 rotateMB=10 | Logger initialized
+2025-12-04 14:29:41.550 [tick=99263734] [pid=7196] [INFO] [Core] admin=Admin arch=x64 os=10.0.26100 | App start
+2025-12-04 14:29:41.550 [tick=99263734] [pid=7196] [INFO] [DXGI] fps=40 outIdx=0 | InitAuto begin
+2025-12-04 14:29:41.591 [tick=99263765] [pid=7196] [INFO] [UI] h=760 w=804 x=244 y=10 | Profile_Build begin
+2025-12-04 14:29:41.672 [tick=99263859] [pid=7196] [INFO] [UI] ok=1 | PopulateProfilesDD after build
+2025-12-04 14:29:41.673 [tick=99263859] [pid=7196] [INFO] [UI] | Profile_Build end
+2025-12-04 14:29:41.673 [tick=99263859] [pid=7196] [INFO] [UI] | Profile_OnEnter
+2025-12-04 14:29:41.674 [tick=99263859] [pid=7196] [INFO] [Storage] count=5 dir=D:\project\AI\AHK\game-macro\Profiles | ListProfilesValid
+2025-12-04 14:29:41.683 [tick=99263859] [pid=7196] [INFO] [Debug] default=0 enabled=1 file=D:\project\AI\AHK\game-macro\Profiles\aaa\rotation_base.ini profile=aaa raw=1 | FS_Load_RotationBase_Enabled
+2025-12-04 14:29:41.685 [tick=99263859] [pid=7196] [INFO] [Debug] enabled=1 profile=aaa | After_PM_ToRuntime_Startup
+2025-12-04 14:29:41.690 [tick=99263875] [pid=7196] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-04 14:29:41.690 [tick=99263875] [pid=7196] [INFO] [Debug] enabled_has=1 enabled_val=1 | Rotation_ReadCfg_Enabled
+2025-12-04 14:29:41.691 [tick=99263875] [pid=7196] [INFO] [Debug] enabled_has=1 enabled_val=1 | Rotation_ReadCfg_Enabled2
+2025-12-04 14:29:41.691 [tick=99263875] [pid=7196] [INFO] [UI] ok=1 | Profile_OnEnter RefreshAll
+2025-12-04 14:29:41.696 [tick=99263875] [pid=7196] [INFO] [UI] cur=aaa ok=1 | PopulateProfilesDD on enter
+2025-12-04 14:29:41.697 [tick=99263875] [pid=7196] [INFO] [UI] hwnd=1509530 | Main shown
+2025-12-04 14:29:45.595 [tick=99267781] [pid=7196] [INFO] [Debug] enabled=1 profile=aaa | RotPU_BeforeEnsure
+2025-12-04 14:29:45.595 [tick=99267781] [pid=7196] [INFO] [Debug] enabled_has=1 enabled_val=1 | REUI_Ensure_Begin
+2025-12-04 14:29:45.595 [tick=99267781] [pid=7196] [INFO] [Debug] enabled_has=1 enabled_val=1 | REUI_Ensure_End
+2025-12-04 14:29:45.596 [tick=99267781] [pid=7196] [INFO] [Debug] enabled=1 profile=aaa | RotPU_AfterEnsure
+2025-12-04 14:29:45.596 [tick=99267781] [pid=7196] [INFO] [Debug] enabled=1 profile=aaa | RotGen_Refresh
+2025-12-04 14:29:45.620 [tick=99267796] [pid=7196] [INFO] [Debug] enabled=1 profile=aaa | RotPU_BeforeEnsure
+2025-12-04 14:29:45.620 [tick=99267796] [pid=7196] [INFO] [Debug] enabled_has=1 enabled_val=1 | REUI_Ensure_Begin
+2025-12-04 14:29:45.620 [tick=99267796] [pid=7196] [INFO] [Debug] enabled_has=1 enabled_val=1 | REUI_Ensure_End
+2025-12-04 14:29:45.620 [tick=99267796] [pid=7196] [INFO] [Debug] enabled=1 profile=aaa | RotPU_AfterEnsure
+2025-12-04 14:29:45.621 [tick=99267796] [pid=7196] [INFO] [Debug] enabled=1 profile=aaa | RotGen_Refresh
+2025-12-04 14:29:51.365 [tick=99273546] [pid=7196] [INFO] [Core] | App exit
+2025-12-04 14:32:57.203 [tick=99459390] [pid=9836] [INFO] [Core] file=D:\project\AI\AHK\game-macro\Logs\app.log keep=5 rotateMB=10 | Logger initialized
+2025-12-04 14:32:57.204 [tick=99459390] [pid=9836] [INFO] [Core] admin=Admin arch=x64 os=10.0.26100 | App start
+2025-12-04 14:32:57.205 [tick=99459390] [pid=9836] [INFO] [DXGI] fps=40 outIdx=0 | InitAuto begin
+2025-12-04 14:32:57.269 [tick=99459453] [pid=9836] [INFO] [UI] h=760 w=804 x=244 y=10 | Profile_Build begin
+2025-12-04 14:32:57.326 [tick=99459500] [pid=9836] [INFO] [UI] ok=1 | PopulateProfilesDD after build
+2025-12-04 14:32:57.326 [tick=99459500] [pid=9836] [INFO] [UI] | Profile_Build end
+2025-12-04 14:32:57.328 [tick=99459515] [pid=9836] [INFO] [UI] | Profile_OnEnter
+2025-12-04 14:32:57.328 [tick=99459515] [pid=9836] [INFO] [Storage] count=5 dir=D:\project\AI\AHK\game-macro\Profiles | ListProfilesValid
+2025-12-04 14:32:57.337 [tick=99459515] [pid=9836] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-04 14:32:57.337 [tick=99459515] [pid=9836] [INFO] [UI] ok=1 | Profile_OnEnter RefreshAll
+2025-12-04 14:32:57.344 [tick=99459531] [pid=9836] [INFO] [UI] cur=aaa ok=1 | PopulateProfilesDD on enter
+2025-12-04 14:32:57.345 [tick=99459531] [pid=9836] [INFO] [UI] hwnd=591718 | Main shown
+2025-12-04 14:33:14.918 [tick=99477093] [pid=9836] [INFO] [Core] | App exit
+2025-12-04 14:34:58.448 [tick=99580625] [pid=22424] [INFO] [Core] file=D:\project\AI\AHK\game-macro\Logs\app.log keep=5 rotateMB=10 | Logger initialized
+2025-12-04 14:34:58.449 [tick=99580625] [pid=22424] [INFO] [Core] admin=Admin arch=x64 os=10.0.26100 | App start
+2025-12-04 14:34:58.449 [tick=99580625] [pid=22424] [INFO] [DXGI] fps=40 outIdx=0 | InitAuto begin
+2025-12-04 14:34:58.508 [tick=99580687] [pid=22424] [INFO] [UI] h=760 w=804 x=244 y=10 | Profile_Build begin
+2025-12-04 14:34:58.563 [tick=99580750] [pid=22424] [INFO] [UI] ok=1 | PopulateProfilesDD after build
+2025-12-04 14:34:58.563 [tick=99580750] [pid=22424] [INFO] [UI] | Profile_Build end
+2025-12-04 14:34:58.565 [tick=99580750] [pid=22424] [INFO] [UI] | Profile_OnEnter
+2025-12-04 14:34:58.565 [tick=99580750] [pid=22424] [INFO] [Storage] count=5 dir=D:\project\AI\AHK\game-macro\Profiles | ListProfilesValid
+2025-12-04 14:34:58.573 [tick=99580750] [pid=22424] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-04 14:34:58.573 [tick=99580750] [pid=22424] [INFO] [Rotation] trackId=0 | Enter track
+2025-12-04 14:34:58.574 [tick=99580750] [pid=22424] [INFO] [Rotation] enabled=1 trackCount=0 | Init
+2025-12-04 14:34:58.574 [tick=99580750] [pid=22424] [INFO] [UI] ok=1 | Profile_OnEnter RefreshAll
+2025-12-04 14:34:58.580 [tick=99580765] [pid=22424] [INFO] [UI] cur=aaa ok=1 | PopulateProfilesDD on enter
+2025-12-04 14:34:58.581 [tick=99580765] [pid=22424] [INFO] [UI] hwnd=854070 | Main shown
+2025-12-04 14:35:06.939 [tick=99589125] [pid=22424] [INFO] [Core] | App exit
+2025-12-04 14:37:19.294 [tick=99721468] [pid=20428] [INFO] [Core] file=D:\project\AI\AHK\game-macro\Logs\app.log keep=5 rotateMB=10 | Logger initialized
+2025-12-04 14:37:19.295 [tick=99721468] [pid=20428] [INFO] [Core] admin=Admin arch=x64 os=10.0.26100 | App start
+2025-12-04 14:37:19.296 [tick=99721484] [pid=20428] [INFO] [DXGI] fps=40 outIdx=0 | InitAuto begin
+2025-12-04 14:37:19.364 [tick=99721546] [pid=20428] [INFO] [UI] h=760 w=804 x=244 y=10 | Profile_Build begin
+2025-12-04 14:37:19.439 [tick=99721625] [pid=20428] [INFO] [UI] ok=1 | PopulateProfilesDD after build
+2025-12-04 14:37:19.439 [tick=99721625] [pid=20428] [INFO] [UI] | Profile_Build end
+2025-12-04 14:37:19.439 [tick=99721625] [pid=20428] [INFO] [UI] | Profile_OnEnter
+2025-12-04 14:37:19.440 [tick=99721625] [pid=20428] [INFO] [Storage] count=5 dir=D:\project\AI\AHK\game-macro\Profiles | ListProfilesValid
+2025-12-04 14:37:19.453 [tick=99721640] [pid=20428] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-04 14:37:19.454 [tick=99721640] [pid=20428] [INFO] [Rotation] trackId=0 | Enter track
+2025-12-04 14:37:19.454 [tick=99721640] [pid=20428] [INFO] [Rotation] enabled=1 trackCount=0 | Init
+2025-12-04 14:37:19.454 [tick=99721640] [pid=20428] [INFO] [UI] ok=1 | Profile_OnEnter RefreshAll
+2025-12-04 14:37:19.461 [tick=99721640] [pid=20428] [INFO] [UI] cur=aaa ok=1 | PopulateProfilesDD on enter
+2025-12-04 14:37:19.462 [tick=99721640] [pid=20428] [INFO] [UI] hwnd=525676 | Main shown
+2025-12-04 14:37:29.050 [tick=99731234] [pid=20428] [INFO] [UI] | Profile_OnEnter
+2025-12-04 14:37:29.050 [tick=99731234] [pid=20428] [INFO] [Storage] count=5 dir=D:\project\AI\AHK\game-macro\Profiles | ListProfilesValid
+2025-12-04 14:37:29.068 [tick=99731250] [pid=20428] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-04 14:37:29.068 [tick=99731250] [pid=20428] [INFO] [Rotation] trackId=0 | Enter track
+2025-12-04 14:37:29.068 [tick=99731250] [pid=20428] [INFO] [Rotation] enabled=1 trackCount=0 | Init
+2025-12-04 14:37:29.069 [tick=99731250] [pid=20428] [INFO] [UI] ok=1 | Profile_OnEnter RefreshAll
+2025-12-04 14:37:29.075 [tick=99731250] [pid=20428] [INFO] [UI] cur=aaa ok=1 | PopulateProfilesDD on enter
+2025-12-04 14:37:30.754 [tick=99732937] [pid=20428] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-04 14:37:30.754 [tick=99732937] [pid=20428] [INFO] [UI] name=test124 ok=1 | ProfilesChanged
+2025-12-04 14:40:44.863 [tick=99927046] [pid=20428] [INFO] [Core] | App exit
+2025-12-04 14:40:48.256 [tick=99930437] [pid=17596] [INFO] [Core] file=D:\project\AI\AHK\game-macro\Logs\app.log keep=5 rotateMB=10 | Logger initialized
+2025-12-04 14:40:48.257 [tick=99930437] [pid=17596] [INFO] [Core] admin=Admin arch=x64 os=10.0.26100 | App start
+2025-12-04 14:40:48.258 [tick=99930437] [pid=17596] [INFO] [DXGI] fps=40 outIdx=0 | InitAuto begin
+2025-12-04 14:40:48.307 [tick=99930484] [pid=17596] [INFO] [UI] h=760 w=804 x=244 y=10 | Profile_Build begin
+2025-12-04 14:40:48.381 [tick=99930562] [pid=17596] [INFO] [UI] ok=1 | PopulateProfilesDD after build
+2025-12-04 14:40:48.382 [tick=99930562] [pid=17596] [INFO] [UI] | Profile_Build end
+2025-12-04 14:40:48.382 [tick=99930562] [pid=17596] [INFO] [UI] | Profile_OnEnter
+2025-12-04 14:40:48.383 [tick=99930562] [pid=17596] [INFO] [Storage] count=5 dir=D:\project\AI\AHK\game-macro\Profiles | ListProfilesValid
+2025-12-04 14:40:48.392 [tick=99930578] [pid=17596] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-04 14:40:48.394 [tick=99930578] [pid=17596] [INFO] [Rotation] trackId=0 | Enter track
+2025-12-04 14:40:48.394 [tick=99930578] [pid=17596] [INFO] [Rotation] enabled=1 trackCount=0 | Init
+2025-12-04 14:40:48.394 [tick=99930578] [pid=17596] [INFO] [UI] ok=1 | Profile_OnEnter RefreshAll
+2025-12-04 14:40:48.398 [tick=99930578] [pid=17596] [INFO] [UI] cur=aaa ok=1 | PopulateProfilesDD on enter
+2025-12-04 14:40:48.398 [tick=99930578] [pid=17596] [INFO] [UI] hwnd=4261258 | Main shown
+2025-12-04 14:40:51.526 [tick=99933703] [pid=17596] [INFO] [UI] | Profile_OnEnter
+2025-12-04 14:40:51.527 [tick=99933703] [pid=17596] [INFO] [Storage] count=5 dir=D:\project\AI\AHK\game-macro\Profiles | ListProfilesValid
+2025-12-04 14:40:51.546 [tick=99933734] [pid=17596] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-04 14:40:51.547 [tick=99933734] [pid=17596] [INFO] [Rotation] trackId=0 | Enter track
+2025-12-04 14:40:51.547 [tick=99933734] [pid=17596] [INFO] [Rotation] enabled=1 trackCount=0 | Init
+2025-12-04 14:40:51.547 [tick=99933734] [pid=17596] [INFO] [UI] ok=1 | Profile_OnEnter RefreshAll
+2025-12-04 14:40:51.553 [tick=99933734] [pid=17596] [INFO] [UI] cur=aaa ok=1 | PopulateProfilesDD on enter
+2025-12-04 14:40:53.281 [tick=99935468] [pid=17596] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-04 14:40:53.281 [tick=99935468] [pid=17596] [INFO] [UI] name=test124 ok=1 | ProfilesChanged
+2025-12-04 14:42:18.478 [tick=100020656] [pid=17596] [INFO] [Core] | App exit
+2025-12-04 14:42:21.622 [tick=100023796] [pid=19780] [INFO] [Core] file=D:\project\AI\AHK\game-macro\Logs\app.log keep=5 rotateMB=10 | Logger initialized
+2025-12-04 14:42:21.623 [tick=100023812] [pid=19780] [INFO] [Core] admin=Admin arch=x64 os=10.0.26100 | App start
+2025-12-04 14:42:21.624 [tick=100023812] [pid=19780] [INFO] [DXGI] fps=40 outIdx=0 | InitAuto begin
+2025-12-04 14:42:21.707 [tick=100023890] [pid=19780] [INFO] [UI] h=760 w=804 x=244 y=10 | Profile_Build begin
+2025-12-04 14:42:21.772 [tick=100023953] [pid=19780] [INFO] [UI] ok=1 | PopulateProfilesDD after build
+2025-12-04 14:42:21.773 [tick=100023953] [pid=19780] [INFO] [UI] | Profile_Build end
+2025-12-04 14:42:21.773 [tick=100023953] [pid=19780] [INFO] [UI] | Profile_OnEnter
+2025-12-04 14:42:21.774 [tick=100023953] [pid=19780] [INFO] [Storage] count=5 dir=D:\project\AI\AHK\game-macro\Profiles | ListProfilesValid
+2025-12-04 14:42:21.785 [tick=100023968] [pid=19780] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-04 14:42:21.785 [tick=100023968] [pid=19780] [INFO] [Rotation] trackId=0 | Enter track
+2025-12-04 14:42:21.786 [tick=100023968] [pid=19780] [INFO] [Rotation] enabled=1 trackCount=0 | Init
+2025-12-04 14:42:21.786 [tick=100023968] [pid=19780] [INFO] [UI] ok=1 | Profile_OnEnter RefreshAll
+2025-12-04 14:42:21.791 [tick=100023968] [pid=19780] [INFO] [UI] cur=aaa ok=1 | PopulateProfilesDD on enter
+2025-12-04 14:42:21.791 [tick=100023968] [pid=19780] [INFO] [UI] hwnd=788582 | Main shown
+2025-12-04 14:42:25.780 [tick=100027968] [pid=19780] [INFO] [UI] | Profile_OnEnter
+2025-12-04 14:42:25.781 [tick=100027968] [pid=19780] [INFO] [Storage] count=5 dir=D:\project\AI\AHK\game-macro\Profiles | ListProfilesValid
+2025-12-04 14:42:25.797 [tick=100027984] [pid=19780] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-04 14:42:25.798 [tick=100027984] [pid=19780] [INFO] [Rotation] trackId=0 | Enter track
+2025-12-04 14:42:25.798 [tick=100027984] [pid=19780] [INFO] [Rotation] enabled=1 trackCount=0 | Init
+2025-12-04 14:42:25.799 [tick=100027984] [pid=19780] [INFO] [UI] ok=1 | Profile_OnEnter RefreshAll
+2025-12-04 14:42:25.805 [tick=100027984] [pid=19780] [INFO] [UI] cur=aaa ok=1 | PopulateProfilesDD on enter
+2025-12-04 14:42:28.563 [tick=100030750] [pid=19780] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-04 14:42:28.563 [tick=100030750] [pid=19780] [INFO] [UI] name=test124 ok=1 | ProfilesChanged
+2025-12-04 14:44:10.373 [tick=100132562] [pid=19780] [INFO] [Core] | App exit
+2025-12-04 14:48:57.852 [tick=100420031] [pid=20840] [INFO] [Core] file=D:\project\AI\AHK\game-macro\Logs\app.log keep=5 rotateMB=10 | Logger initialized
+2025-12-04 14:48:57.852 [tick=100420031] [pid=20840] [INFO] [Core] admin=Admin arch=x64 os=10.0.26100 | App start
+2025-12-04 14:48:57.853 [tick=100420031] [pid=20840] [INFO] [DXGI] fps=40 outIdx=0 | InitAuto begin
+2025-12-04 14:48:57.915 [tick=100420093] [pid=20840] [INFO] [UI] h=760 w=804 x=244 y=10 | Profile_Build begin
+2025-12-04 14:48:57.972 [tick=100420156] [pid=20840] [INFO] [UI] ok=1 | PopulateProfilesDD after build
+2025-12-04 14:48:57.972 [tick=100420156] [pid=20840] [INFO] [UI] | Profile_Build end
+2025-12-04 14:48:57.973 [tick=100420156] [pid=20840] [INFO] [UI] | Profile_OnEnter
+2025-12-04 14:48:57.973 [tick=100420156] [pid=20840] [INFO] [Storage] count=5 dir=D:\project\AI\AHK\game-macro\Profiles | ListProfilesValid
+2025-12-04 14:48:57.981 [tick=100420156] [pid=20840] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-04 14:48:57.982 [tick=100420156] [pid=20840] [INFO] [Rotation] trackId=0 | Enter track
+2025-12-04 14:48:57.982 [tick=100420156] [pid=20840] [INFO] [Rotation] enabled=1 trackCount=0 | Init
+2025-12-04 14:48:57.982 [tick=100420156] [pid=20840] [INFO] [UI] ok=1 | Profile_OnEnter RefreshAll
+2025-12-04 14:48:57.991 [tick=100420171] [pid=20840] [INFO] [UI] cur=aaa ok=1 | PopulateProfilesDD on enter
+2025-12-04 14:48:57.991 [tick=100420171] [pid=20840] [INFO] [UI] hwnd=330534 | Main shown
+2025-12-04 14:49:01.462 [tick=100423640] [pid=20840] [INFO] [Core] | App exit
+2025-12-05 09:21:07.578 [tick=167149765] [pid=17488] [INFO] [Core] file=D:\project\AI\AHK\game-macro\Logs\app.log keep=5 rotateMB=10 | Logger initialized
+2025-12-05 09:21:07.594 [tick=167149781] [pid=17488] [INFO] [Core] admin=Admin arch=x64 os=10.0.26100 | App start
+2025-12-05 09:21:07.594 [tick=167149781] [pid=17488] [INFO] [DXGI] fps=40 outIdx=0 | InitAuto begin
+2025-12-05 09:21:07.706 [tick=167149890] [pid=17488] [INFO] [UI] h=760 w=804 x=244 y=10 | Profile_Build begin
+2025-12-05 09:21:07.802 [tick=167149984] [pid=17488] [INFO] [UI] ok=1 | PopulateProfilesDD after build
+2025-12-05 09:21:07.802 [tick=167149984] [pid=17488] [INFO] [UI] | Profile_Build end
+2025-12-05 09:21:07.802 [tick=167149984] [pid=17488] [INFO] [UI] | Profile_OnEnter
+2025-12-05 09:21:07.802 [tick=167149984] [pid=17488] [INFO] [Storage] count=5 dir=D:\project\AI\AHK\game-macro\Profiles | ListProfilesValid
+2025-12-05 09:21:07.878 [tick=167150062] [pid=17488] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-05 09:21:07.878 [tick=167150062] [pid=17488] [INFO] [Rotation] trackId=0 | Enter track
+2025-12-05 09:21:07.878 [tick=167150062] [pid=17488] [INFO] [Rotation] enabled=1 trackCount=0 | Init
+2025-12-05 09:21:07.878 [tick=167150062] [pid=17488] [INFO] [UI] ok=1 | Profile_OnEnter RefreshAll
+2025-12-05 09:21:07.883 [tick=167150062] [pid=17488] [INFO] [UI] cur=aaa ok=1 | PopulateProfilesDD on enter
+2025-12-05 09:21:07.885 [tick=167150062] [pid=17488] [INFO] [UI] hwnd=198622 | Main shown
+2025-12-05 09:21:13.664 [tick=167155843] [pid=17488] [INFO] [UI] | Profile_OnEnter
+2025-12-05 09:21:13.664 [tick=167155843] [pid=17488] [INFO] [Storage] count=5 dir=D:\project\AI\AHK\game-macro\Profiles | ListProfilesValid
+2025-12-05 09:21:13.681 [tick=167155859] [pid=17488] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-05 09:21:13.681 [tick=167155859] [pid=17488] [INFO] [Rotation] trackId=0 | Enter track
+2025-12-05 09:21:13.681 [tick=167155859] [pid=17488] [INFO] [Rotation] enabled=1 trackCount=0 | Init
+2025-12-05 09:21:13.681 [tick=167155859] [pid=17488] [INFO] [UI] ok=1 | Profile_OnEnter RefreshAll
+2025-12-05 09:21:13.681 [tick=167155859] [pid=17488] [INFO] [UI] cur=aaa ok=1 | PopulateProfilesDD on enter
+2025-12-05 09:21:15.498 [tick=167157671] [pid=17488] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-05 09:21:15.498 [tick=167157671] [pid=17488] [INFO] [UI] name=qDPSRanHuo ok=1 | ProfilesChanged
+2025-12-05 09:21:17.138 [tick=167159312] [pid=17488] [INFO] [Storage] count=3 fixedNext=0 profile=test | FS_Load_Tracks ok
+2025-12-05 09:21:17.155 [tick=167159343] [pid=17488] [INFO] [Storage] count=1 profile=test | FS_Load_Gates ok
+2025-12-05 09:21:17.174 [tick=167159359] [pid=17488] [INFO] [WorkerPool] mode=FF_ONLY threads=3 | Rebuild
+2025-12-05 09:21:17.174 [tick=167159359] [pid=17488] [INFO] [ROI] h=677 l=56 t=151 w=189 | SetAuto OK
+2025-12-05 09:21:17.174 [tick=167159359] [pid=17488] [INFO] [Rotation] trackId=251537505533300736 | Enter track
+2025-12-05 09:21:17.174 [tick=167159359] [pid=17488] [INFO] [Rotation] enabled=1 trackCount=3 | Init
+2025-12-05 09:21:17.175 [tick=167159359] [pid=17488] [INFO] [UI] name=test ok=1 | ProfilesChanged
+2025-12-05 09:22:46.089 [tick=167248265] [pid=17488] [INFO] [UI_SkillPreset] | SkillPresetImport_Open enter
+2025-12-05 09:22:47.567 [tick=167249750] [pid=17488] [INFO] [GW2_DB] specCount=81 | BuildSpecIndex
+2025-12-05 09:22:47.637 [tick=167249812] [pid=17488] [INFO] [UI_SkillPreset] count=9 | Professions filled
+2025-12-05 09:22:47.643 [tick=167249828] [pid=17488] [INFO] [GW2_DB] count=11 prof=Elementalist | GetSpecsByProf
+2025-12-05 09:22:47.651 [tick=167249828] [pid=17488] [INFO] [UI_SkillPreset] count=11 prof=Elementalist | Specs filled
+2025-12-05 09:22:47.653 [tick=167249828] [pid=17488] [INFO] [UI_SkillPreset] cat= count=290 prof=Elementalist spec=-1 weaponFilter= | Reload skills
+2025-12-05 09:22:47.746 [tick=167249921] [pid=17488] [INFO] [UI_SkillPreset] cat= count=290 prof=Elementalist spec=-1 weaponFilter= | Reload skills
+2025-12-05 09:22:47.799 [tick=167249984] [pid=17488] [INFO] [UI_SkillPreset] | SkillPresetImport_Open GUI created
+2025-12-05 11:19:11.316 [tick=174233500] [pid=14036] [INFO] [Core] file=D:\project\AI\AHK\game-macro-client\Logs\app.log keep=5 rotateMB=10 | Logger initialized
+2025-12-05 11:19:11.317 [tick=174233500] [pid=14036] [INFO] [Core] admin=Admin arch=x64 os=10.0.26100 | App start
+2025-12-05 11:19:11.381 [tick=174233562] [pid=14036] [INFO] [UI] h=760 w=804 x=244 y=10 | Profile_Build begin
+2025-12-05 11:19:11.454 [tick=174233640] [pid=14036] [INFO] [UI] ok=1 | PopulateProfilesDD after build
+2025-12-05 11:19:11.454 [tick=174233640] [pid=14036] [INFO] [UI] | Profile_Build end
+2025-12-05 11:19:11.455 [tick=174233640] [pid=14036] [INFO] [UI] | Profile_OnEnter
+2025-12-05 11:19:11.455 [tick=174233640] [pid=14036] [INFO] [Storage] count=1 dir=D:\project\AI\AHK\game-macro-client\Profiles | ListProfilesValid
+2025-12-05 11:19:11.460 [tick=174233640] [pid=14036] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-05 11:19:11.460 [tick=174233640] [pid=14036] [INFO] [UI] ok=1 | Profile_OnEnter RefreshAll
+2025-12-05 11:19:11.461 [tick=174233640] [pid=14036] [INFO] [UI] cur=test ok=1 | PopulateProfilesDD on enter
+2025-12-05 11:19:11.462 [tick=174233640] [pid=14036] [INFO] [UI] hwnd=5310258 | Main shown
+2025-12-05 11:21:26.173 [tick=174368359] [pid=14036] [INFO] [Core] | App exit
+2025-12-05 11:21:41.135 [tick=174383312] [pid=9864] [INFO] [Core] file=D:\project\AI\AHK\game-macro-client\Logs\app.log keep=5 rotateMB=10 | Logger initialized
+2025-12-05 11:21:41.135 [tick=174383312] [pid=9864] [INFO] [Core] admin=Admin arch=x64 os=10.0.26100 | App start
+2025-12-05 11:21:41.192 [tick=174383375] [pid=9864] [INFO] [UI] h=760 w=804 x=244 y=10 | Profile_Build begin
+2025-12-05 11:21:41.240 [tick=174383421] [pid=9864] [INFO] [UI] ok=1 | PopulateProfilesDD after build
+2025-12-05 11:21:41.240 [tick=174383421] [pid=9864] [INFO] [UI] | Profile_Build end
+2025-12-05 11:21:41.240 [tick=174383421] [pid=9864] [INFO] [UI] | Profile_OnEnter
+2025-12-05 11:21:41.240 [tick=174383421] [pid=9864] [INFO] [Storage] count=1 dir=D:\project\AI\AHK\game-macro-client\Profiles | ListProfilesValid
+2025-12-05 11:21:41.240 [tick=174383421] [pid=9864] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-05 11:21:41.240 [tick=174383421] [pid=9864] [INFO] [UI] ok=1 | Profile_OnEnter RefreshAll
+2025-12-05 11:21:41.240 [tick=174383421] [pid=9864] [INFO] [UI] cur=test ok=1 | PopulateProfilesDD on enter
+2025-12-05 11:21:41.240 [tick=174383421] [pid=9864] [INFO] [UI] hwnd=1378246 | Main shown
+2025-12-05 11:22:36.106 [tick=174438281] [pid=9864] [INFO] [UI] | Profile_OnEnter
+2025-12-05 11:22:36.106 [tick=174438281] [pid=9864] [INFO] [Storage] count=1 dir=D:\project\AI\AHK\game-macro-client\Profiles | ListProfilesValid
+2025-12-05 11:22:36.138 [tick=174438312] [pid=9864] [INFO] [WorkerPool] mode=FF_ONLY threads=1 | Rebuild
+2025-12-05 11:22:36.138 [tick=174438312] [pid=9864] [INFO] [UI] ok=1 | Profile_OnEnter RefreshAll
+2025-12-05 11:22:36.138 [tick=174438312] [pid=9864] [INFO] [UI] cur=test ok=1 | PopulateProfilesDD on enter
+2025-12-05 11:23:27.712 [tick=174489890] [pid=9864] [INFO] [Core] | App exit
